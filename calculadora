@@ -1,0 +1,22 @@
+print ("calculadora")
+cuenta = int(input("elija la cuenta <1=adicion, 2=sustraccion, 3=multiplicacion, 4=division"))
+if cuenta < 2:  
+    a = int(input("Ingrese el sumando 1: "))
+    b = int(input("Ingrese el sumando 2: "))
+    suma = a + b
+    print (suma)
+elif cuenta > 1 and cuenta < 3:
+    minuendo=int(input("Ingrese el minuendo: "))
+    sustraendo=int(input("Ingrese el sustraendo: "))
+    resto=minuendo-sustraendo
+    print(resto)
+elif cuenta > 2 and cuenta < 4:
+    factora=int(input("Ingrese el factor 1: "))
+    factorb=int(input("Ingrese el factor 2: "))
+    producto=factora*factorb
+    print(producto)
+elif cuenta > 3 and cuenta < 5:
+    dividendo=int(input("Ingrese el dividendo: "))
+    divisor=int(input("Ingrese el divisor: "))
+    cociente=dividendo/divisor
+    print(cociente)   
